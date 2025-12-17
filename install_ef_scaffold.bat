@@ -36,7 +36,7 @@ echo Scaffold completed successfully!
 goto :eof
 
 :Help
-echo Usage: include_ef "Your Connection String Here" NameOfYourContextClass
+echo Usage: include_ef_scaffold "Your Connection String Here" NameOfYourContextClass
 echo  Example:
 echo   include_ef_scaffold "Data Source=MyComputer;Initial Catalog=MyDatabase;Integrated Security=True;TrustServerCertificate=True;" MyDbContext
 goto Quit
